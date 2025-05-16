@@ -1,0 +1,1268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="anasayfa.css">
+    <link rel="shortcut icon" href="image/meblogo.png" type="image/x-icon">
+    <title> KOCAELİ / GEBZE Gebze STFA Mesleki ve Teknik Anadolu Lisesi</title>
+</head>
+<body>
+
+  <a href="#" class="Up-icon" id="Okulumuz"><i class="fa-solid fa-circle-up"></i></a>
+
+  <!---Cursor effect-->
+  <div class="custom-cursor"></div>
+  <script>
+    const cursor = document.querySelector('.custom-cursor');
+    let mouseX = 0, mouseY = 0;
+    let currentX = 0, currentY = 0;
+  
+    document.addEventListener('mousemove', e => {
+      mouseX = e.clientX;
+      mouseY = e.clientY;
+    });
+  
+    function animateCursor() {
+      // Yumuşak takip efekti
+      currentX += (mouseX - currentX) * 0.18;
+      currentY += (mouseY - currentY) * 0.18;
+      cursor.style.left = currentX + 'px';
+      cursor.style.top = currentY + 'px';
+      requestAnimationFrame(animateCursor);
+    }
+  
+    animateCursor();
+  </script>
+
+
+    <!--HEADER KISMI-->
+    <header>
+        <div class="information">
+            <ul id="info_left">
+                <li><i class="fa-solid fa-location-dot"></i> Cumhuriyet Mah. 2253.Sok No3/1 Gebze/KOCAELİ</li>
+                <li><i class="fa-solid fa-envelope"></i> gebzestfa@gmail.com</li>
+                <li><i class="fa-solid fa-phone"></i> +90 (262) 653 2680</li>
+            </ul>
+
+            <ul id="info_right">
+                <li>Kocaeli, Türkiye <span id="uk">(TR)</span></li>
+                <li><i class="fa-brands fa-square-instagram"></i></li>
+                <li><i class="fa-brands fa-linkedin"></i></li>
+                <li><i class="fa-brands fa-square-github"></i></li>
+            </ul>
+        </div>
+    </header>
+
+
+<!--NAVBAR KISMI-->
+<nav>
+    <div class="logo" href="#Okulumuz">
+        <img src="image/logostfa.png" alt="Logo">
+        <span>STFA Mesleki ve Teknik Anadolu Lisesi</span>
+    </div>
+
+    <div class="menu">
+        <a href="#" class="active">Okulumuz</a>
+        
+        <div class="dropdown">
+        <a href="#Alanlar">Alanlar</a>
+        <div class="dropdown-content">
+            <a href="#bilisim-bolumu">Bilişim Teknolojileri Alanı</a>
+            <a href="#elektrik-Elektronik">Elektrik ve Elektronik Teknolojisi</a>
+            <a href="#otomasyon-bolumu">Otomasyon Teknolojileri Alanı</a>
+            <a href="#insaat-bolumu">İnşaat Teknolojisi Alanı</a>
+            <a href="#makine-bolumu">Makine Teknolojisi Alanı</a>
+            <a href="#Matbaa-bolumu">Matbaa Teknolojileri</a>
+        </div>
+        </div>
+
+        <div class="dropdown">
+        <a href="#Kadromuz">Kadromuz </a>
+        <div class="dropdown-content">
+            <a href="#Kultur">Kültür Öğretmenlerimiz</a>
+            <a href="#MeslekKadro">Meslek Öğretmenlerimiz</a>
+        </div>
+        </div>
+
+        <a href="#Hakkimizda">Hakkımızda</a>
+        <a href="#İletişim">İletişim</a>
+    </div>
+
+    <div class="search">
+        <input type="text" placeholder="Ara..."><i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+    </div>
+</nav>
+
+
+<!---CONTENT SECTİON-->
+<main><section class="content_section">
+    <div class="C_text">
+        <h1>STFA Mesleki ve Teknik Anadolu Lisesi Tarihçesi</h1>
+        <p><i class="fa-solid fa-arrow-right"></i> Sezai Türkeş-Feyzi Akkaya tarafından yaptırılarak Milli Eğitim Bakanlığına bağışlanan okulumuz, 27 eylül 1989'da SEZAİ TÜRKEŞ-FEYZİ AKKAYA ANADOLU TEKNİK LİSESİ adıyla resmi törenle eğitim-öğretime açılmıştır.</p>  <p> <i class="fa-solid fa-arrow-right"></i> 2005-2006 yılından itibaren mesleki eğitimdeki yeni yapılanma ile birlikte bölümler alanlara dönüştürülmüş olup okulumuzda aşağıdaki alanlarda eğitim öğretim verilmeye başlanmıştır:</p> 
+            <p>
+                <i class="fa-solid fa-check"></i>         Bilişim Teknolojileri Alanı <br>
+
+                <i class="fa-solid fa-check"></i>      Elektrik-Elektronik Teknolojisi Alanı <br>
+            
+                <i class="fa-solid fa-check"></i>       Endüstriyel Otomasyon Teknolojileri Alanı <br>
+            
+                <i class="fa-solid fa-check"></i>        İnşaat Teknolojisi Alanı <br>
+            
+                <i class="fa-solid fa-check"></i>        Makine Teknolojisi Alanı</p>
+    </div>
+    <div class="C_image">
+        <img src="image/logostfa.png" alt="Main content image">
+    </div>
+</section></main>
+
+
+<!---Page two SECTİON-->
+<section class="section-pagetwo">
+          
+    <div class="pagetwo-h1">Hayallerine giden yolda  <span style="color:#ffcc00 ;"> STFA yanında!</span></div>
+    <div class="pagetwo-left">
+      <div class="pagetwo-h2">T.C. MİLLÎ EĞİTİM BAKANLIĞI <br>STFA Mesleki ve Teknik Anadolu Lisesi</div>
+      <div class="pagetwo-h3 uppercase">Neden bizi tercih etmelisiniz ?</div>
+      <hr>
+      <p> Misyonumuz öğrencilerimizin; Mesleki alanlarında bilgili, becerili ve özgüvenli olmalarını, Edineceği mesleki kariyeri geliştirmeyi düşünen, bu nedenle üniversiteyi hedefleyen bireyler olmalarını,Olaylara çok yönlü ve tarafsız bakabilmelerini, Her türlü teknolojik gelişmeyi takip edebilmelerini ve bu gelişmeleri kendi alanlarında uygulayabilmelerini,Liderlik özelliklerinin yanı sıra, işbirliği ve ekip çalışmalarına yatkın bireyler olmalarını,Çevresi ile dengeli ve uyumlu ilişkiler kurabilen sağlıklı bireyler olmalarını,Yönetici, öğretmen, veli, personel, sivil toplum örgütleri ve öğrencilerin işbirliği ile okulu, çevrede ve bölgede modelyapma inancıyla çalışmalarını,Öğrencilerin, Atatürk ilke ve inkılaplarına ve anayasada ifadesini bulan Atatürk milliyetçiliğine bağlı, demokratik ve laik davranışları benimseyen, beceri düzeyi yüksek bir Türk vatandaşı olarak yetişmelerini sağlamaktır.</p>
+    </div>
+  
+    <div class="pagetwo-right">
+      <div class="pagetwo-box"><img src="image/stfa-mtal.jpg" alt="okul Fotoğrafı 1"></div>
+      <div class="pagetwo-box"><img src="image/görselokul.jpg" alt="okul Fotoğrafı 2"></div>
+      <div class="pagetwo-box"><img src="image/stfafotograf.jpg" alt="okul Fotoğrafı 3"></div>
+      <div class="pagetwo-box"><img src="image/ototmasyon.jpg" alt="okul Fotoğrafı 4"></div>
+    </div>
+</section>
+
+
+<!---ABOUT PAGE-->  
+<section class="about" id="Hakkimizda">
+    <img src="image/stfa-mtal.jpg" alt="Okul Fotoğrafı" />
+    <div class="text">
+      <h2>Hakkımızda</h2>
+      <p>Okulumuz; teknolojik altyapısı, güçlü akademik kadrosu ve öğrenci odaklı vizyonu ile modern bir eğitim anlayışını benimseyen kurumlardan biridir. Misyonumuz; öğrencilerimizi geleceğin dünyasına hazırlarken, onları birey olarak da güçlü bir şekilde geliştirmektir.</p>
+
+      <div class="info-stats">
+        <div class="stat"><i class="fas fa-graduation-cap"></i><h4>1100+ Öğrenci</h4></div>
+        <div class="stat"><i class="fas fa-chalkboard-teacher"></i><h4>90 Öğretmen</h4></div>
+        <div class="stat"><i class="fas fa-school"></i><h4>27 Sınıf</h4></div>
+        <div class="stat"><i class="fas fa-tools"></i><h4>26 Atölye-İşlik</h4></div>
+        <div class="stat"><i class="fa-solid fa-flask-vial"></i><h4>2 Kimya Laboratuvarı</h4></div>
+        <div class="stat"><i class="fa-solid fa-laptop-code"></i><h4>4  BT Sınıfı</h4></div>
+      </div>
+    </div>
+  </section>
+
+
+<!---BOX CONTENT-->  
+<section class="box_content">
+    <div class="boxs">
+      <i class="fa-solid fa-people-group icon_box"></i>
+        <div class="box_text">
+            <h4 class="box_h4 uppercase">Stfa Kuruluş </h4>
+            <p class="box_p">27 Eylül 1989'de Sezai Türkeş ve Feyzi Akkaya tarafından yaptırılarak Milli Eğitim Bakanlığı'na bağışlanmıştır.</p>
+        </div>
+    </div>
+    <div class="boxs">
+      <i class="fa-solid fa-chart-line icon_box"></i>
+        <div class="box_text">
+            <h4 class="box_h4 uppercase ">Başarılarımız</h4>
+            <p class="box_p">Öğrencilerimiz, ulusal ve uluslararası yarışmalarda ödüller kazanarak okulumuza büyük gurur yaşatmışlardır.</p>
+        </div>
+    </div>
+    <div class="boxs">
+      <i class="fa-regular fa-handshake icon_box"></i>
+        <div class="box_text">
+            <h4 class="box_h4 uppercase">İşbirliği</h4>
+            <p class="box_p">Sanayi kuruluşları, üniversiteler ve diğer eğitim kurumlarıyla işbirliği yaparak öğrencilerimize eğitim fırsatları sunmaktadır.</p>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!--BOLUM SECTION-->
+  <div class="bolum-page-name" id="bilisim-bolumu">
+    <h1><i class="fa-solid fa-graduation-cap"></i> Bilişim Teknolojileri Bölümü</h1>
+    <p>Teknolojiye Yön Ver, Geleceği Kodla</p>
+  </div>
+
+<!--BİLİSİM BOLUMU-->
+<section class="bolum" id="Alanlar">
+  <section class="section-bolum-page bolum-about">
+    <div class="bolum-container">
+      <h2 class="bolum-section-title">İŞ BULMA İMKÂNLARI</h2>
+      <div class="bolum-section-content">
+        <p class="bolum-section-text"><i class="fa-solid fa-caret-right"></i> Bu alandaki mesleklerin teknolojideki gelişmelerin sonucunda sürekli gelişmesinden ve yaygınlaşmasından dolayı bu mesleklerde iş bulma imkanları oldukça geniştir.</p>
+        <p class="bolum-section-text"><i class="fa-solid fa-caret-right"></i> Ağ işletmenleri, bilgisayar satış ve teknik destek firmaları, bankalar, sigorta şirketleri, ticarî kuruluşlar, internet servis sağlayıcıları, internet yayıncılık şirketleri, radyotelevizyon şirketleri, araştırma şirketleri, borsalar, ulaştırma, lojistik firmaları ve hizmet sektöründe yer alan kamu kurum ve kuruluşlarında geniş iş imkânına sahiptirler. Ayrıca kendi adlarına işyeri açabilirler.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-bolum-page bolum-departments">
+    <div class="bolum-container">
+      <div class="bolum-departments-container">
+        <div class="bolum-department">
+          <h3 class="bolum-department-title">Eğitim Ve Kariyer İmkanları</h3>
+          <p class="bolum-department-text">Meslek yüksek okulunu bitirenler, dikey geçiş sınavı ile lisans programlarına geçebilirler. Bu alanda kişiler eğitimini tamamlayarak, yeterlik sertifikalarını alarak ve sektörde iş başında eğitimini tamamlayarak Veri Tabanı programcıları, kamu kuruluşları ait firmalarda çalışabilirler.</p>
+        </div>
+        <div class="bolum-department">
+          <h3 class="bolum-department-title">Meslek Elemanında Aranan Özellikler</h3>
+          <p class="bolum-department-text">Bu alandaki mesleklerde eğitim almak isteyenlerin;
+            Tasarım ve görsel yeterliliğine sahip,
+            Ekip içinde çalışabilen,
+            Sistemli düşünebilen,
+            Matematikle ilgili konularda başarılı,
+            Kendini yenileyebilen,
+            Araştırmacı,
+            Teknoloji alanındaki yenilikleri takip eden kimseler olmaları gerekir.</p>
+        </div>
+        <div class="bolum-department">
+          <h3 class="bolum-department-title">Okulumuzda Bilişim Teknolojileri</h3>
+          <p class="bolum-department-text">Her öğrenciye bir bilgisayarın düştüğü bölümümüze ait 1 adet 20+1, 1 adet 15+1 Bilgisayar Laboratuvarı ve 1 adet 15+1 Robotik Kodlama Atölyesi bulunmaktadır. Bilişim Teknolojileri Alanı öğrencileri Meslek Lisesi eğitimini 4 yılda bitirmekte ve bu süre sonunda teknisyen ünvanı almaktadır.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+  
+  <!--Elektronik-Elektrik-->
+  <div class="bolum-page-name " id="elektrik-Elektronik">
+    <h1><i class="fa-solid fa-graduation-cap"></i> Elektronik-Elektrik Teknolojileri Bölümü</h1>
+    <p>Geleceği Elektrik Aydınlatır</p>
+  </div>
+
+  <section class="bolum" >
+    <section class="section-bolum-page bolum-about">
+      <div class="bolum-container">
+        <h2 class="bolum-section-title">İŞ BULMA İMKÂNLARI</h2>
+        <div class="bolum-section-content">
+          <p class="bolum-section-text"><i class="fa-solid fa-caret-right"></i> Elektrik ve Elektronik Teknolojisi mezunlarının iş bulma imkanı oldukça geniştir.Özellikle sanayi, otomotiv, telekomünikasyon, enerji ve elektronik sektörlerinde çeşitli pozisyonlarda çalışabilirler.</p>
+          <p class="bolum-section-text"><i class="fa-solid fa-caret-right"></i> Elektrik-Elektronik sanayi dünyada önemini kanıtlamış, pazar ve rekabet koşulları en hızlı gelişen sektörlerin başında gelir. Gelişmekte olan ülkelerde bu ortam içinde yerini alabilmek için sektörel gelişmelere önem vermek zorundadırlar. Ülkemiz bu alanda yapılacak çalışmalarda en önemli ayağını eğitim olduğunun bilincindedir. Sektörün nitelikli eleman ihtiyacını karşılamaya dönük, eğitim alanındaki revizyonu devam etmektedir.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-bolum-page bolum-departments">
+      <div class="bolum-container">
+        <div class="bolum-departments-container">
+          <div class="bolum-department">
+            <h3 class="bolum-department-title">Eğitim Ve Kariyer İmkanları</h3>
+            <p class="bolum-department-text">Elektrik makineleri bobin sarım atölyelerinde,
+              Elektrik tesisatçılarında,
+              Elektrik pano kurulum atölyelerinde,
+              Televizyon ve radyo tamir atölyelerinde,
+              Seslendirme ve ışık sistemleri teknik servisinde,
+              Endüstriyel fabrika ve atölyelerde
+              Elektrik tesisatı proje taahhüt firmalarında vb. yerlerde çalışabilirler.</p>
+          </div>
+          <div class="bolum-department">
+            <h3 class="bolum-department-title">Meslek Elemanında Aranan Özellikler</h3>
+            <p class="bolum-department-text">Elektrik ve Elektronik Teknolojisi meslek elemanında aranan özellikler, teknik bilgi ve becerilerle birlikte problem çözme yeteneğini de içerir. Bu alandaki profesyoneller, elektriksel sistemlerin ve elektronik cihazların kurulumu, bakımı ve onarımı konularında uzmanlaşmış olmalıdır. </p>
+          </div>
+          <div class="bolum-department">
+            <h3 class="bolum-department-title">Okulumuzda Elektrik-Elektronik Bölümü</h3>
+            <p class="bolum-department-text">Elektrik ve Elektronik bölümlerinin birleştirilmesi ile başlandı. Öğrenciler 10. sınıfta temel Elektrik-Elektronik derslerini görürler. 11. sınıfa geçerken not ortalamaları dikkate alınarak, okulda açılan dallardan birini seçerler. Sonraki 2 yıl eğitimlerine seçtikleri dalda uzmanlaşarak devam ederler.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+
+<!--OTOMASYON BOLUMU-->
+<div class="bolum-page-name" id="otomasyon-bolumu">
+  <h1><i class="fa-solid fa-graduation-cap"></i> Endüstriyel Otomasyon Teknolojileri Bölümü</h1>
+  <p>Teknolojiyle Güçlü, Endüstriyel Otomasyonla Başarılı</p>
+</div>
+
+<section class="bolum">
+  <section class="section-bolum-page bolum-about">
+    <div class="bolum-container">
+      <h2 class="bolum-section-title">İŞ BULMA İMKÂNLARI</h2>
+      <div class="bolum-section-content">
+        <p class="bolum-section-text"><i class="fa-solid fa-caret-right"></i> Endüstriyel Otomasyon Teknolojisi, günümüzün hızla gelişen sanayi dünyasında büyük bir öneme sahiptir. Teknolojinin hızla ilerlemesiyle birlikte, otomasyon sistemlerine olan talep de artmaktadır. </p>
+        <p class="bolum-section-text"><i class="fa-solid fa-caret-right"></i> Dünyada özellikle 1980´li yıllardan sonra, endüstriyel ürünlerin tasarım ve üretiminde köklü değişiklikler meydana gelmiştir. Gelişen ve değişen dünya pazarlarında teknolojinin ilerlemesiyle, endüstriyel ürünlerin nitelik ve işlevlerinde de önemli değişiklikler meydana gelmiştir. Hızla gelişen teknoloji ve sürekli değişen pazar koşulları, daha ekonomik ve kaliteli ürünler isterken; müşteri beklentileri ise daha esnek ve çok işlevli ürünler yönünde gelişmiştir. Müşterilerin hızla değişen istekleri ve yoğun pazar rekabeti sonucu, ürün ömürleri çok kısalmıştır.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-bolum-page bolum-departments">
+    <div class="bolum-container">
+      <div class="bolum-departments-container">
+        <div class="bolum-department">
+          <h3 class="bolum-department-title">Eğitim Ve Kariyer İmkanları</h3>
+          <p class="bolum-department-text">Endüstriyel Otomasyon Teknolojileri alanından mezun olan veya sertifika alan öğrenciler, seçtikleri dalda/meslekte kazandıkları yeterlikler doğrultusunda;
+            Makine,
+            Otomotiv,
+            Tekstil,
+            Gemi otomasyonu,
+            Savunma sanayi,
+            Plastik,
+            Tıp elektroniği,
+            Uçak,
+            Enerji,
+            İletişim,
+            Petrokimya sektörlerinde çalışabilir.</p>
+        </div>
+        <div class="bolum-department">
+          <h3 class="bolum-department-title">Meslek Elemanında Aranan Özellikler</h3>
+          <p class="bolum-department-text">Mesleği icra eden kişiler; makine parçaları arasındaki ilişkiyi görebilen, el ve parmaklarını ustalıkla kullanabilen, bilgisayar programlama yapabilen, sistematik ve planlı çalışabilen, yeniliklere açık, rutin işlerden sıkılmayan, dikkatli ve tedbirli, grup çalışmalarına yatkın bireyler olmalıdır. </p>
+        </div>
+        <div class="bolum-department">
+          <h3 class="bolum-department-title">Çalışma Ortamı Ve Koşulları</h3>
+          <p class="bolum-department-text">Endüstriyel Otomasyon alanındaki kişiler çalışmalarını fabrika, atölye veya iş yerlerinde genellikle kapalı alanlarda yürütürler. Yapılan iş rutin olmadığı için sürekli problem çözme ve tasarım yaparlar. Bu da mesleği hareketli ve zevkli kılar.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+
+  <!--MAKİNA BOLUMU-->
+  <div class="bolum-page-name" id="makine-bolumu">
+    <h1><i class="fa-solid fa-graduation-cap"></i> Makine Teknolojileri Bölümü</h1>
+    <p>Yenilikçi makineler, güçlü çözümler</p>
+  </div>
+
+  <section class="bolum">
+    <section class="section-bolum-page bolum-about">
+      <div class="bolum-container">
+        <h2 class="bolum-section-title">İŞ BULMA İMKÂNLARI</h2>
+        <div class="bolum-section-content">
+          <p class="bolum-section-text"><i class="fa-solid fa-caret-right"></i> Bu alanda eğitim alan bireyler, CNC tezgah operatörlüğü, makine bakım-onarım teknisyenliği, üretim planlama, kalite kontrol gibi birçok farklı pozisyonda istihdam edilebilirler. Özellikle otomotiv, savunma sanayi, enerji, beyaz eşya, kalıpçılık ve metal işleme sektörlerinde makine teknolojisi mezunlarına olan ihtiyaç giderek artmaktadır.  </p>
+          <p class="bolum-section-text"><i class="fa-solid fa-caret-right"></i> Makine teknolojisi alanı ekonomik kalkınmanın temelidir. Alan, ülkemizde ve dünyada hızla  ilerlemektedir, getirisi ve katma değeri de ekonominin lokomotif durumundadır. Alanda  istihdam  imkânları  oldukça  çeşitlidir. </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-bolum-page bolum-departments">
+      <div class="bolum-container">
+        <div class="bolum-departments-container">
+          <div class="bolum-department">
+            <h3 class="bolum-department-title">Eğitim Ve Kariyer İmkanları</h3>
+            <p class="bolum-department-text">Makine Teknolojisi alanında verilen eğitim, öğrencilere hem teorik hem de uygulamalı bilgiler kazandırarak onları sektöre hazır bireyler haline getirir. Eğitim sürecinde teknik çizim, bilgisayar destekli tasarım (CAD), üretim teknikleri, makine elemanları, CNC tezgah kullanımı ve bakım-onarım gibi konularda bilgi ve beceri sahibi olunur. </p>
+          </div>
+          <div class="bolum-department">
+            <h3 class="bolum-department-title">Meslek Elemanında Aranan Özellikler</h3>
+            <p class="bolum-department-text">Bu alanda başarılı olabilmek için dikkatli, sabırlı ve sorumluluk sahibi olmak önemlidir. Aynı zamanda el becerisi yüksek, problem çözme yeteneği gelişmiş, ekip çalışmasına yatkın bireyler tercih edilir. Teknik çizimleri okuyabilme, ölçüm yapabilme, el aletleri ve makineleri güvenli bir şekilde kullanabilme gibi yetenekler de aranır.</p>
+          </div>
+          <div class="bolum-department">
+            <h3 class="bolum-department-title">Çalışma Ortamı Ve Koşulları</h3>
+            <p class="bolum-department-text">Çalışma ortamı; üretim makinelerinin bulunduğu, teknik ekipmanların yoğun olarak kullanıldığı yerlerdir. Ortam zaman zaman gürültülü olabilir ve iş güvenliği kurallarına dikkat edilmesi büyük önem taşır. Çalışma koşulları genellikle vardiyalı sistemle yürütülür ve işin niteliğine göre ayakta çalışma gerekebilir. </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+
+    <!--İNSAAT BOLUMU-->
+  <div class="bolum-page-name" id="insaat-bolumu">
+    <h1><i class="fa-solid fa-graduation-cap"></i> İnşaat Teknolojileri Bölümü</h1>
+    <p>Güvenli yapılar, sağlam yarınlar</p>
+  </div>
+
+  <section class="bolum">
+    <section class="section-bolum-page bolum-about">
+      <div class="bolum-container">
+        <h2 class="bolum-section-title">İŞ BULMA İMKÂNLARI</h2>
+        <div class="bolum-section-content">
+          <p class="bolum-section-text"><i class="fa-solid fa-caret-right"></i> İnşaat Teknolojisi alanı, günümüzde ve gelecekte en çok ihtiyaç duyulan sektörlerden biri olması nedeniyle geniş iş bulma olanakları sunar. Altyapıdan üstyapıya, konut projelerinden sanayi tesislerine kadar pek çok alanda nitelikli eleman ihtiyacı vardır. Mezunlar; kamu kurumlarında, özel inşaat firmalarında, şantiyelerde, yapı denetim firmalarında ve mimarlık ofislerinde rahatlıkla iş bulabilirler. </p>
+          <p class="bolum-section-text"><i class="fa-solid fa-caret-right"></i> Ayrıca bu alanda kendi işini kurmak isteyenler için de fırsatlar oldukça fazladır. Sürekli gelişen yapı teknolojileri sayesinde mesleki bilgi ve becerilerini güncel tutan bireyler, sektörde her zaman tercih edilen çalışanlar arasında yer alır. </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-bolum-page bolum-departments">
+      <div class="bolum-container">
+        <div class="bolum-departments-container">
+          <div class="bolum-department">
+            <h3 class="bolum-department-title">Eğitim Ve Kariyer İmkanları</h3>
+            <p class="bolum-department-text">Bu eğitim süreci teorik bilgilerin yanı sıra uygulamalı derslerle de desteklenerek öğrencilerin sahada çalışmaya hazır hale gelmesini sağlar. Mezun olduktan sonra teknikerlik, şantiye şefliği, yapı denetim uzmanlığı gibi birçok kariyer seçeneği mevcuttur. Ayrıca üniversitelerin ilgili mühendislik bölümlerine geçiş yaparak kariyerlerini bir üst seviyeye taşıma imkanına da sahiptirler.</p>
+          </div>
+          <div class="bolum-department">
+            <h3 class="bolum-department-title">Meslek Elemanında Aranan Özellikler</h3>
+            <p class="bolum-department-text">Plan okuma ve teknik çizim konusunda yetkin, el becerisi yüksek, ölçü alma ve uygulama konularında titiz davranan bireyler bu meslekte başarılı olabilir. Aynı zamanda fiziksel dayanıklılık, açık alanda çalışma koşullarına uyum sağlama ve güvenlik kurallarına uygun hareket etme becerisi de önemlidir. Problem çözme yeteneği ve sürekli öğrenmeye açık olmak, sektördeki gelişmelere ayak uydurmak açısından avantaj sağlar.</p>
+          </div>
+          <div class="bolum-department">
+            <h3 class="bolum-department-title">Çalışma Ortamı Ve Koşulları</h3>
+            <p class="bolum-department-text">Fiziksel dayanıklılık bu alanda önemli bir faktördür, çünkü uzun süre ayakta durma, ağır kaldırma veya tırmanma gibi eylemler gerekebilir. Güvenlik önlemlerine sıkı sıkıya uyulması, kişisel koruyucu donanımların kullanılması ve iş güvenliği kurallarının titizlikle uygulanması büyük önem taşır. Bununla birlikte bazı görevler kapalı alanlarda ya da ofis ortamında teknik çizim ve proje planlama şeklinde de gerçekleştirilebilir.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </section>
+    
+
+
+   <!--MATBAA BOLUMU-->
+   <div class="bolum-page-name" id="Matbaa-bolumu">
+    <h1><i class="fa-solid fa-graduation-cap"></i> Matbaa Teknolojileri Bölümü</h1>
+    <p>Kelimeyi Kağıda, Hayali Gerçeğe Dönüştür</p>
+  </div>
+
+  <section class="bolum">
+    <section class="section-bolum-page bolum-about">
+      <div class="bolum-container">
+        <h2 class="bolum-section-title">İŞ BULMA İMKÂNLARI</h2>
+        <div class="bolum-section-content">
+          <p class="bolum-section-text"><i class="fa-solid fa-caret-right"></i> Matbaa teknolojisi, hızla gelişen dijitalleşme ve baskı endüstrisinin vazgeçilmez bir parçası olarak, iş dünyasında geniş bir kariyer yelpazesi sunmaktadır.</p>
+          <p class="bolum-section-text"><i class="fa-solid fa-caret-right"></i> Matbaa sektöründe iş bulma imkânları özellikle büyük baskı merkezleri, yayın evleri, reklam ajansları, tasarım stüdyoları ve endüstriyel baskı makineleri üreten firmalarda mevcuttur. Ayrıca, dijital baskı teknolojilerinin yükselişiyle birlikte, bu alanda yazılım geliştiren veya dijital baskı makineleriyle çalışan firmalarda da iş olanakları artmaktadır. Matbaa teknolojisi bölümü mezunları, çeşitli alanlarda kendilerini geliştirebilir, özel sektörde veya kendi işlerini kurarak başarıya ulaşabilirler.  </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-bolum-page bolum-departments">
+      <div class="bolum-container">
+        <div class="bolum-departments-container">
+          <div class="bolum-department">
+            <h3 class="bolum-department-title">Eğitim Ve Kariyer İmkanları</h3>
+            <p class="bolum-department-text">Matbaa teknolojisi eğitimi, öğrencilere baskı teknikleri, makineler, grafik tasarım, üretim süreçleri ve kalite kontrol gibi alanlarda derinlemesine bilgi kazandırır. Bu eğitim, genellikle meslek yüksekokulları veya teknik okullarda sunulmakta olup, öğrencilere pratik beceriler kazandıran uygulamalı dersler içerir.</p>
+          </div>
+          <div class="bolum-department">
+            <h3 class="bolum-department-title">Meslek Elemanında Aranan Özellikler</h3>
+            <p class="bolum-department-text">Matbaa teknikerlerinin baskı makineleri, yazılım ve donanım konusunda derin bilgiye sahip olmaları beklenir. Yaratıcı bir bakış açısına sahip olmak, grafik tasarımı ve görsel estetik konusunda bilgili olmak, özellikle baskı öncesi hazırlık ve tasarım aşamalarında önemli bir avantaj sağlar.</p>
+          </div>
+          <div class="bolum-department">
+            <h3 class="bolum-department-title">Çalışma Ortamı Ve Koşulları</h3>
+            <p class="bolum-department-text">Dijital baskı teknolojilerinin gelişmesiyle birlikte, daha modern ve dijital ortamlarda çalışan matbaa teknikerleri, bilgisayar başında da uzun süre vakit geçirebilirler. Çalışma saatleri, özellikle baskı yoğunluğu dönemlerinde esnek olabilir ve bazen gece vardiyaları veya hafta sonu çalışmaları gerekebilir. </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </section>
+
+
+  
+
+
+
+
+<!-- BÖLÜMLER SECTION --> 
+<section id="Kadromuz" class="departments" >
+  <h2 id="MeslekKadro"> Meslek Bölümlerimiz</h2>
+  <div class="dept-grid">
+    
+    <!-- Kart 1 -->
+    <div class="card">
+      <img src="image/bölümimage.jpg" alt="Bilişim Teknolojileri" />
+      <h3>Bilişim Teknolojileri</h3>
+      <p><i class="fa-solid fa-arrow-right"></i> Öğrencilerimiz çeşitli programlama dillerinin yanı sıra grafik tasarım bilgisine de sahip olarak öğrenimlerini tamamlamaktadır.</p>
+
+      <div class="details-box">
+        <div class="detail-item">
+          <i class="fa fa-user-tie"></i>
+          <div>
+            <strong class="uppercase">Emrah Kapucu</strong>
+            <small>Alan Şefi</small>
+          </div>
+        </div>
+
+        <div class="detail-item">
+          <i class="fa fa-user"></i>
+          <div>
+            <strong class="uppercase">Dilşad Çelebi Kapucu</strong>
+            <small>Atölye Şefi</small>
+          </div>
+        </div>
+
+        <div class="detail-item">
+          <i class="fa fa-user-tie"></i>
+          <div>
+            <strong class="uppercase">Kamil Demiral</strong>
+            <small>Atölye Şefi</small>
+          </div>
+        </div>
+
+        <div class="detail-item">
+          <i class="fa fa-user-tie"></i>
+          <div>
+            <strong class="uppercase">Refik Yavuz</strong>
+            <small>Bilişim Teknolojileri Öğretmeni</small>
+          </div>
+        </div>
+
+        <div class="detail-item">
+          <i class="fa fa-user-tie"></i>
+          <div>
+            <strong class="uppercase">Özkan Kurtuldu</strong>
+            <small>Bilişim Teknolojileri Öğretmeni</small>
+          </div>
+        </div>
+
+        <div class="detail-item">
+          <i class="fa fa-user"></i>
+          <div>
+            <strong class="uppercase">Yasemin Esen Yazıcı</strong>
+            <small>Bilişim Teknolojileri Öğretmeni</small>
+          </div>
+        </div>
+
+        <div class="detail-item">
+          <i class="fa fa-user"></i>
+          <div>
+            <strong class="uppercase">Songul Tanrıverdi</strong>
+            <small>Bilişim Teknolojileri Öğretmeni</small>
+          </div>
+        </div>
+
+        <div class="detail-item">
+          <i class="fa fa-user"></i>
+          <div>
+            <strong class="uppercase">Elif Berberoğlu</strong>
+            <small>Bilişim Teknolojileri Öğretmeni</small>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Kart 2 -->
+    <div class="card">
+      <img src="image/elektrikgorsel.jpg" alt="Elektrik Teknolojileri" />
+      <h3>Elektrik-Elektronik</h3>
+      <p><i class="fa-solid fa-arrow-right"></i> 
+        Elektrik-Elektronik sanayi dünyada önemini kanıtlamış, pazar ve rekabet koşulları en hızlı gelişen sektörlerin başında gelir.</p>
+
+      <div class="details-box">
+        <div class="detail-item">
+          <i class="fa fa-user-tie"></i>
+          <div>
+            <strong class="uppercase">Özer Erkaslan</strong>
+            <small>Alan Şefi</small>
+          </div>
+        </div>
+
+        <div class="detail-item">
+          <i class="fa fa-user"></i>
+          <div>
+            <strong class="uppercase">Hacer Şallı</strong>
+            <small>Atölye Şefi</small>
+          </div>
+        </div>
+
+        <div class="detail-item">
+          <i class="fa fa-user"></i>
+          <div>
+            <strong class="uppercase">Hicran Kara</strong>
+            <small>Atölye Şefi</small>
+          </div>
+        </div>
+
+        <div class="detail-item">
+          <i class="fa fa-user-tie"></i>
+          <div>
+            <strong class="uppercase">Mehmet Erdoğan</strong>
+            <small>Elektrik-Elektronik Öğretmeni</small>
+          </div>
+        </div>
+
+        <div class="detail-item">
+          <i class="fa fa-user-tie"></i>
+          <div>
+            <strong class="uppercase">İsmail Baygın</strong>
+            <small>Elektrik-Elektronik Öğretmeni</small>
+          </div>
+        </div>
+
+        <div class="detail-item">
+          <i class="fa fa-user"></i>
+          <div>
+            <strong class="uppercase">Gülşah Çeper</strong>
+            <small>Elektrik-Elektronik Öğretmeni</small>
+          </div>
+        </div>
+
+        <div class="detail-item">
+          <i class="fa fa-user-tie"></i>
+          <div>
+            <strong class="uppercase">Zeki Çakmak</strong>
+            <small>Elektrik-Elektronik Öğretmeni</small>
+          </div>
+        </div>
+
+        <div class="detail-item">
+          <i class="fa fa-user-tie"></i>
+          <div>
+            <strong class="uppercase">Yunus Bayatlıer</strong>
+            <small>Elektrik-Elektronik Öğretmeni</small>
+          </div>
+        </div>
+
+        <div class="detail-item">
+          <i class="fa fa-user-tie"></i>
+          <div>
+            <strong class="uppercase">Gökhan Tor</strong>
+            <small>Elektrik-Elektronik Öğretmeni</small>
+          </div>
+        </div>
+
+        <div class="detail-item">
+          <i class="fa fa-user-tie"></i>
+          <div>
+            <strong class="uppercase">Ahmet Yılmaz</strong>
+            <small>Elektrik-Elektronik Öğretmeni</small>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Kart 3 -->
+    <div class="card">
+      <img src="image/inşaat.jpg" alt="İnşaat Teknolojileri" />
+      <h3>İnşaat Teknolojileri</h3>
+      <p><i class="fa-solid fa-arrow-right"></i> Modern yapı teknikleri ve mühendislik bilgisiyle donatılmış, sağlam ve estetik yapılar inşa edebilen nitelikli teknikerler yetiştirmeyi amaçlar.</p>
+      <div class="details-box">
+        <div class="detail-item">
+          <i class="fa fa-user-tie"></i>
+          <div>
+            <strong class="uppercase">Ufuk Uğurtay</strong>
+            <small>Alan Şefi</small>
+          </div>
+        </div>
+
+        <div class="detail-item">
+          <i class="fa fa-user-tie"></i>
+          <div>
+            <strong class="uppercase">Uğur beyhan</strong>
+            <small>Atölye Şefi</small>
+          </div>
+        </div>
+
+        <div class="detail-item">
+          <i class="fa fa-user-tie"></i>
+          <div>
+            <strong class="uppercase">Metin Köroğlu</strong>
+            <small>Atölye Şefi</small>
+          </div>
+        </div>
+
+        <div class="detail-item">
+          <i class="fa fa-user-tie"></i>
+          <div>
+            <strong class="uppercase">Yener Ersoy</strong>
+            <small>Atölye Şefi</small>
+          </div>
+        </div>
+
+        <div class="detail-item">
+          <i class="fa fa-user-tie"></i>
+          <div>
+            <strong class="uppercase">Sinan İmamaoğlu</strong>
+            <small>İnşaat Teknolojileri Öğretmeni</small>
+          </div>
+        </div>
+
+        <div class="detail-item">
+          <i class="fa fa-user"></i>
+          <div>
+            <strong class="uppercase">Ahu Bilici</strong>
+            <small>İnşaat Teknolojileri Öğretmeni</small>
+          </div>
+        </div>
+
+        <div class="detail-item">
+          <i class="fa fa-user-tie"></i>
+          <div>
+            <strong class="uppercase">Bayram Yılmaz</strong>
+            <small>İnşaat Teknolojileri Öğretmeni</small>
+          </div>
+        </div>
+
+        <div class="detail-item">
+          <i class="fa fa-user"></i>
+          <div>
+            <strong class="uppercase">Hatice Değe</strong>
+            <small>İnşaat Teknolojileri Öğretmeni</small>
+          </div>
+        </div>
+
+        <div class="detail-item">
+          <i class="fa fa-user"></i>
+          <div>
+            <strong class="uppercase">Sibel Türk</strong>
+            <small>İnşaat Teknolojileri Öğretmeni</small>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Kart 4 -->
+    <div class="card">
+      <img src="image/stfagörsel4.jpg" alt="Makina" />
+      <h3>Makine Teknolojileri</h3>
+      <p><i class="fa-solid fa-arrow-right"></i> Dünyada  ve  ülkemizde  sektördeki  kalifiye eleman  sıkıntısı oldukça  fazladır. Dolayısıyla  iş bulma  sıkıntısı yoktur..</p>
+      <div class="details-box">
+        <div class="detail-item">
+          <i class="fa fa-user-tie"></i>
+          <div>
+            <strong class="uppercase">Mecit Gül</strong>
+            <small>Alan Şefi</small>
+          </div>
+        </div>
+
+        <div class="detail-item">
+          <i class="fa fa-user-tie"></i>
+          <div>
+            <strong class="uppercase">Mesut Bayır</strong>
+            <small>Atölye Şefi</small>
+          </div>
+        </div>
+
+        <div class="detail-item">
+          <i class="fa fa-user-tie"></i>
+          <div>
+            <strong class="uppercase">Özgür doğan</strong>
+            <small>Atölye Şefi</small>
+          </div>
+        </div>
+
+        <div class="detail-item">
+          <i class="fa fa-user-tie"></i>
+          <div>
+            <strong class="uppercase">Enes sarıbaş</strong>
+            <small>Makine Teknolojileri Öğretmeni</small>
+          </div>
+        </div>
+
+        <div class="detail-item">
+          <i class="fa fa-user-tie"></i>
+          <div>
+            <strong class="uppercase">Metin bayar</strong>
+            <small>Makine Teknolojileri Öğretmeni</small>
+          </div>
+        </div>
+
+        <div class="detail-item">
+          <i class="fa fa-user-tie"></i>
+          <div>
+            <strong class="uppercase">Murat Çiftçi</strong>
+            <small>Makine Teknolojileri Öğretmeni</small>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Kart 5 -->
+    <div class="card">
+      <img src="image/ototmasyon.jpg" alt="otomasyon gorsel" />
+      <h3>Endüstriyel Otomasyon</h3>
+      <p><i class="fa-solid fa-arrow-right"></i> Alanda  istihdam  imkânları  oldukça  çeşitlidir.  Dünyada  ve  ülkemizde  sektördeki  kalifiye eleman  sıkıntısı oldukça  fazladır. </p>
+       <div class="details-box">
+        <div class="detail-item">
+          <i class="fa fa-user-tie"></i>
+          <div>
+            <strong class="uppercase">Onur Bulut</strong>
+            <small>Alan Şefi</small>
+          </div>
+        </div>
+
+        <div class="detail-item">
+          <i class="fa fa-user-tie"></i>
+          <div>
+            <strong class="uppercase">Erdoğan Öztürk</strong>
+            <small>Otomasyon Teknolojileri Öğretmeni</small>
+          </div>
+        </div>
+
+        <div class="detail-item">
+          <i class="fa fa-user-tie"></i>
+          <div>
+            <strong class="uppercase">Murat Özer</strong>
+            <small>Otomasyon Teknolojileri Öğretmeni</small>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Kart 6 -->
+    <div class="card">
+      <img src="image/mtbaa.jpg" alt="matbaa" />
+      <h3>Matbaa Teknolojileri</h3>
+      <p><i class="fa-solid fa-arrow-right"></i> Bilginin gelecek kuşaklara yayılması matbaacılık ile olmuştur. Afişler, ambalajlar matbaacılık alanının ürettiği ürünlerdir..</p>
+      <div class="details-box">
+        <div class="detail-item">
+          <i class="fa fa-user-tie"></i>
+          <div>
+            <strong class="uppercase">Mehmet Şahin</strong>
+            <small>Alan Şefi</small>
+          </div>
+        </div>
+        <div class="detail-item">
+          <i class="fa fa-user"></i>
+          <div>
+            <strong class="uppercase">Ayşe Demir</strong>
+            <small>Atölye Şefi</small>
+          </div>
+        </div>
+
+        <div class="detail-item">
+          <i class="fa fa-user-tie"></i>
+          <div>
+            <strong class="uppercase">Ahmet kazar</strong>
+            <small>Matbaa Teknolojileri Öğretmeni</small>
+          </div>
+        </div>
+        <div class="detail-item">
+          <i class="fa fa-user"></i>
+          <div>
+            <strong class="uppercase">Nisa Torlu</strong>
+            <small>Matbaa Teknolojileri Öğretmeni</small>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!--CULTURE SECTİON-->
+<section id="Kultur" class="culture">
+
+  <div>
+    <h1 id="culture-h1">Kültür  Öğretmenlerimiz</h1>
+  </div>
+
+  <div class="culture-box">
+    <div class="culture-item">
+      <i class="fa fa-user"></i>
+      <div>
+        <strong class="uppercase">Dilek Durak</strong> <br>
+        <small>Matematik Öğretmeni</small>
+      </div>
+    </div>
+  
+    <div class="culture-item">
+      <i class="fa fa-user-tie"></i>
+      <div>
+        <strong class="uppercase">Güngor koç</strong> <br>
+        <small>Matematik Öğretmeni</small>
+      </div>
+    </div>
+  
+    <div class="culture-item">
+      <i class="fa fa-user-tie"></i>
+      <div>
+        <strong class="uppercase">Fatih Durmaz</strong> <br>
+        <small>Matematik Öğretmeni</small>
+      </div>
+    </div>
+  
+    <div class="culture-item">
+      <i class="fa fa-user-tie"></i>
+      <div>
+        <strong class="uppercase">Yunus Musaoğlu</strong> <br>
+        <small> Matematik Öğretmeni</small>
+      </div>
+    </div>
+
+    <div class="culture-item">
+      <i class="fa fa-user"></i>
+      <div>
+        <strong class="uppercase">İlknur Özkan Candan</strong> <br>
+        <small>Matematik Öğretmeni</small>
+      </div>
+    </div>
+</div>
+    
+  
+ <hr style="margin-top: 15px;">
+
+ <div class="culture-box">
+  <div class="culture-item">
+    <i class="fa fa-user"></i>
+    <div>
+      <strong class="uppercase">Arzı Şahin Kılıç</strong> <br>
+      <small>Edebiyat Öğretmeni</small>
+    </div>
+  </div>
+
+  <div class="culture-item">
+    <i class="fa fa-user-tie"></i>
+    <div>
+      <strong class="uppercase">Beytullah Aydoğdu</strong> <br>
+      <small>Edebiyat Öğretmeni</small>
+    </div>
+  </div>
+
+  <div class="culture-item">
+    <i class="fa fa-user-tie"></i>
+    <div>
+      <strong class="uppercase">Samet Bayrak</strong> <br>
+      <small>Edebiyat Öğretmeni</small>
+    </div>
+  </div>
+
+  <div class="culture-item">
+    <i class="fa fa-user-tie"></i>
+    <div>
+      <strong class="uppercase">Muhammet Üst</strong> <br>
+      <small> Edebiyat Öğretmeni</small>
+    </div>
+  </div>
+
+  <div class="culture-item">
+    <i class="fa fa-user"></i>
+    <div>
+      <strong class="uppercase">Sevda Akkoç</strong> <br>
+      <small>Edebiyat Öğretmeni</small>
+    </div>
+  </div>
+
+  <div class="culture-item">
+    <i class="fa fa-user"></i>
+    <div>
+      <strong class="uppercase">Seda Mutlu</strong> <br>
+      <small>Edebiyat Öğretmeni</small>
+    </div>
+  </div>
+
+  <div class="culture-item">
+    <i class="fa fa-user"></i>
+    <div>
+      <strong class="uppercase">Betül Bostan</strong> <br>
+      <small>Edebiyat Öğretmeni</small>
+    </div>
+  </div>
+  <div class="culture-item">
+    <i class="fa fa-user"></i>
+    <div>
+      <strong class="uppercase">Gülay Aksu Öztürk</strong> <br>
+      <small>Edebiyat Öğretmeni</small>
+    </div>
+  </div>
+</div>
+
+ 
+<hr style="margin-top: 15px;">
+
+<div class="culture-box">
+ <div class="culture-item">
+  <i class="fa fa-user-tie"></i>
+   <div>
+     <strong class="uppercase">İbrahim Işık</strong> <br>
+     <small>Beden Eğitimi Öğretmeni</small>
+   </div>
+ </div>
+
+ <div class="culture-item">
+  <i class="fa fa-user-tie"></i>
+   <div>
+     <strong class="uppercase">Mehmet Uşar</strong> <br>
+     <small>Beden Eğitimi Öğretmeni</small>
+   </div>
+ </div>
+
+ <div class="culture-item">
+  <i class="fa fa-user"></i>
+   <div>
+     <strong class="uppercase">Gülden doğan</strong> <br>
+     <small>Biyoloji Öğretmeni</small>
+   </div>
+ </div>
+
+ <div class="culture-item">
+  <i class="fa fa-user"></i>
+   <div>
+     <strong class="uppercase">Aişe Çakır</strong> <br>
+     <small>Biyoloji Öğretmeni</small>
+   </div>
+ </div>
+
+ <div class="culture-item">
+   <i class="fa fa-user"></i>
+   <div>
+     <strong class="uppercase">Arap Ayşe Kılıç</strong> <br>
+     <small>Biyoloji Öğretmeni</small>
+   </div>
+ </div>
+
+</div>
+
+ <hr style="margin-top: 15px;">
+
+ <div class="culture-box">
+  <div class="culture-item">
+   <i class="fa fa-user-tie"></i>
+    <div>
+      <strong class="uppercase">Adnan Aykaç</strong> <br>
+      <small>Coğrafya Öğretmeni</small>
+    </div>
+  </div>
+ 
+  <div class="culture-item">
+   <i class="fa fa-user-tie"></i>
+    <div>
+      <strong class="uppercase">Bünyamin Çelik</strong> <br>
+      <small>İngilizce Öğretmeni</small>
+    </div>
+  </div>
+ 
+  <div class="culture-item">
+   <i class="fa fa-user"></i>
+    <div>
+      <strong class="uppercase">Gülnur Sertlek</strong> <br>
+      <small>İngilizce Öğretmeni</small>
+    </div>
+  </div>
+ 
+  <div class="culture-item">
+    <i class="fa fa-user-tie"></i>
+    <div>
+      <strong class="uppercase">Bülent İnce</strong> <br>
+      <small>İngilizce Öğretmeni</small>
+    </div>
+  </div>
+ 
+  <div class="culture-item">
+    <i class="fa fa-user"></i>
+     <div>
+       <strong class="uppercase">Esra Altıntaş</strong> <br>
+       <small>İngilizce Öğretmeni</small>
+     </div>
+   </div>
+  
+   <div class="culture-item">
+    <i class="fa fa-user-tie"></i>
+     <div>
+       <strong class="uppercase">Erdal Kaymakçı</strong> <br>
+       <small>Fizik Öğretmeni</small>
+     </div>
+   </div>
+  
+   <div class="culture-item">
+    <i class="fa fa-user"></i>
+     <div>
+       <strong class="uppercase">Çiğdem Yıldırım</strong> <br>
+       <small>Fizik Öğretmeni</small>
+     </div>
+   </div>
+
+   <div class="culture-item">
+    <i class="fa fa-user"></i>
+     <div>
+       <strong class="uppercase">Şehriban akbudak</strong> <br>
+       <small>Felsefe Öğretmeni</small>
+     </div>
+   </div>
+
+   <div class="culture-item">
+    <i class="fa fa-user-tie"></i>
+     <div>
+       <strong class="uppercase">Yener Ünel</strong> <br>
+       <small>Din Kültürü Öğretmeni</small>
+     </div>
+   </div>
+  
+   <div class="culture-item">
+    <i class="fa fa-user"></i>
+     <div>
+       <strong class="uppercase">Merve Açıkgöz</strong> <br>
+       <small>Din Kültürü Öğretmeni</small>
+     </div>
+   </div>
+
+   <div class="culture-item">
+    <i class="fa fa-user"></i>
+     <div>
+       <strong class="uppercase">Özlem Siner</strong> <br>
+       <small>Din Kültürü Öğretmeni</small>
+     </div>
+   </div>
+ </div>
+
+ <hr style="margin-top: 15px;">
+
+ <div class="culture-box">
+  <div class="culture-item">
+    <i class="fa fa-user"></i>
+    <div>
+      <strong class="uppercase">Sündüz Yıldız</strong> <br>
+      <small>Özel Eğitim Öğretmeni</small>
+    </div>
+  </div>
+ 
+  <div class="culture-item">
+   <i class="fa fa-user-tie"></i>
+    <div>
+      <strong class="uppercase">Uğurlu Ozulu</strong> <br>
+      <small>Rehberlik</small>
+    </div>
+  </div>
+ 
+  <div class="culture-item">
+   <i class="fa fa-user"></i>
+    <div>
+      <strong class="uppercase">Kübra Irmak can</strong> <br>
+      <small>Rehberlik</small>
+    </div>
+  </div>
+
+</section>
+
+
+
+    <!--İLETİSİM-->
+    <section class="contact-grid" id="İletişim">
+        <!-- Sol Kısım: Form -->
+        <div class="contact-form-container">
+          <h2 class="title">İletişime Geç</h2>
+          <form class="contact-form" action="#" method="POST">
+            <label>Ad Soyad</label>
+            <input type="text" name="name" placeholder="Adınız Soyadınız" required />
+  
+            <label>Email</label>
+            <input type="email" name="email"  placeholder="E-mail giriniz" required />
+  
+            <label>Konu</label>
+            <input type="text" name="subject"  placeholder="Zorunlu Alan !"  required />
+  
+            <label>Mesajınız</label>
+            <textarea name="message" rows="5" required></textarea>
+  
+            <button type="submit">Gönder</button>
+          </form>
+        </div>
+  
+        
+        <!-- Sağ Kısım: Bilgiler + Harita -->
+        <div class="contact-info-container">
+          <div class="info-block">
+            <h3>İletişim Bilgileri</h3>
+            <p><strong>Adres:</strong> Taksim Meydanı, İstanbul</p>
+            <p><strong>Telefon:</strong> +90 212 123 45 67</p>
+            <p><strong>Email:</strong> info@ornekfirma.com</p>
+  
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+  
+          <div class="map">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3124.7914003492793!2d29.3664054!3d40.8091237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cadeff5678bf3d%3A0x9b4855f593e9634a!2sStfa+Mesleki+ve+Teknik+Anadolu+Lisesi!5e0!3m2!1str!2str!4v1679655765873!5m2!1str!2str" 
+              width="100%" 
+              height="300" 
+              style="border:0;" 
+              allowfullscreen 
+              loading="lazy">
+            </iframe>
+          </div>
+        </div>
+      </section>
+ 
+    <script>
+        const sections = document.querySelectorAll('section');
+      
+        const observer = new IntersectionObserver(entries => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('visible');
+            }
+          });
+        }, {
+          threshold: 0.1
+        });
+      
+        sections.forEach(section => {
+          observer.observe(section);
+        });
+      </script>
+
+
+
+<!---FOOTER KISMI-->
+<footer>
+
+  <div class="footer-con">
+    <div class="footer-logobox">
+      <div class="footer-logo-title">
+        <img src="image/logostfa.png" alt="Okul Logosu">
+        <h3>STFA Mesleki ve Teknik Anadolu Lisesi</h3>
+      </div>
+      <p>Öğrencilerimizin eğitim yolculuklarında yanlarında olduğumuz için gururluyuz. Siz değerli ziyaretçilerimize, öğretim ve başarıda sürekli gelişim hedefimiz doğrultusunda eğitimde kaliteyi birlikte yükseltmeyi amaçlıyoruz. Katkılarınız ve desteğiniz için teşekkür ederiz.</p>
+    </div>
+    
+    <div class="footer-content">
+      <h4>Okulumuz</h4>
+      <ul>
+        <li><a href="#" >Müdür</a></li> <br>
+        <li><a href="#" >Kadromuz</a></li> <br>
+        <li><a href="#" >Tarihçe</a></li> <br>
+        <li><a href="#" >Okulumuz Hakkında</a></li> <br>
+        <li><a href="#" >Kamu Hizmet</a></li> <br>
+        <li><a href="#" >Standartlarımız</a></li>
+      </ul>
+    </div>
+
+    
+    <div class="footer-content">
+      <h4>Bölümlerimiz</h4>
+      <ul>
+        <li><a href="#" >Bilişim Teknolojileri</a></li>
+        <li><a href="#" >Elektrik-Elektronik</a></li>
+        <li><a href="#" >Makine Teknolojisi</a></li>
+        <li><a href="#" >Matbaa Teknolojisi</a></li>
+        <li><a href="#" >İnşaat Teknolojisi</a></li>
+        <li><a href="#" >Endüstriyel Otomasyon</a></li>
+      </ul>
+    </div>
+
+    
+    <div class="footer-content">
+      <h4>Rehberlik</h4>
+      <ul>
+        <li><a href="#" >Rehberlik Servisi Tanıtımı</a></li>
+        <li><a href="#" >Sınıf Rehber Öğretmenliği</a></li>
+        <li><a href="#" >ÖSYS</a></li>
+        <li><a href="#" >Eğitsel Rehberlik</a></li>
+        <li><a href="#" >Mesleki Rehberlik</a></li>
+        <li><a href="#" >Kişisel Rehberlik</a></li>
+      </ul>
+    </div>
+    
+    <!-- İletişim Bilgileri -->
+    <div class="footer-content">
+      <h4>İletişim</h4>
+      <p id="paraf-footer">📍 Adres: Cumhuriyet Mah. 2253.Sok No3/1 Gebze/KOCAELİ</p>
+      <p id="paraf-footer">📞 Telefon: (0262) 653 2680</p>
+      <p id="paraf-footer">✉️ E-posta: gebzestfa@gmail.com</p>
+      
+      <!-- Sosyal Medya -->
+      <div class="footer-icon">
+        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-square-github"></i></a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="footer-hak">
+    <p>© 2025 STFA MTAL Tüm hakları saklıdır.</p>
+  </div>
+</footer>
+
+</body>
+</html>
